@@ -6,12 +6,12 @@
         let deviceWidth = docEle.clientWidth;
         if (!deviceWidth)
             return;
-        if (deviceWidth >= 750)
-            doc.documentElement.style.fontSize = "100 px";
-        else if (deviceWidth < 375)
-            doc.documentElement.style.fontSize = "50 px";
+        if (deviceWidth >= 375)
+            doc.documentElement.style.fontSize = "50px";
+        else if (deviceWidth > 187 && deviceWidth < 375)
+            doc.documentElement.style.fontSize = `${deviceWidth / 15}px`;
         else
-            doc.documentElement.style.fontSize = `${deviceWidth / 7.5} px`;
+            doc.documentElement.style.fontSize = "25px";
     }
     ;
     if (!doc.addEventListener && !win.addEventListener)

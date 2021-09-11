@@ -6,10 +6,10 @@ import './assets/css/reset.css'
 import './JS/rem'
 import '../src/assets/font_2800797_pn7mjq3e5b/iconfont.css'
 import '../src/assets/font_2800797_pn7mjq3e5b/iconfont.js'
-import { NavBar } from 'vant'
+import { NavBar, Swipe, SwipeItem, Lazyload } from 'vant'
 
 
 
 
 
-createApp(App).use(store).use(router).use(NavBar).mount('#app')
+createApp(App).use(store).use(router).use(NavBar).use(Swipe).use(SwipeItem).use(Lazyload).mount('#app')
