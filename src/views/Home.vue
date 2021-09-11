@@ -1,13 +1,15 @@
 <template>
-  <h1 class="h1ss">This is Home Page.</h1>
+<top-nav></top-nav>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import topNav from '../components/topNav.vue'
 
 export default defineComponent({
   name: 'Home',
   components: {
+    topNav
   },
 });
 </script>

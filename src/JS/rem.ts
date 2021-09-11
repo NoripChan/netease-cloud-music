@@ -4,9 +4,9 @@
     function recalc() {
         let deviceWidth: Number = docEle.clientWidth;
         if (!deviceWidth) return;
-        if (deviceWidth >= 375) doc.documentElement.style.fontSize = "100px"
-        else if (deviceWidth > 187 && deviceWidth < 375) doc.documentElement.style.fontSize = `${(deviceWidth as any) / 7.5}px`
-        else doc.documentElement.style.fontSize = "50px";
+        if (deviceWidth >= 375) doc.documentElement.style.fontSize = "50px"
+        else if (deviceWidth > 187 && deviceWidth < 375) doc.documentElement.style.fontSize = `${(deviceWidth as any) / 15}px`
+        else doc.documentElement.style.fontSize = "25px";
     };
 
     if (!doc.addEventListener && !win.addEventListener) return;
