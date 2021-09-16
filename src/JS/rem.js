@@ -9,7 +9,7 @@
         if (deviceWidth >= 375)
             doc.documentElement.style.fontSize = "50px";
         else if (deviceWidth > 187 && deviceWidth < 375)
-            doc.documentElement.style.fontSize = `${deviceWidth / 15}px`;
+            doc.documentElement.style.fontSize = `${deviceWidth / 375 * 50}px`;
         else
             doc.documentElement.style.fontSize = "25px";
     }

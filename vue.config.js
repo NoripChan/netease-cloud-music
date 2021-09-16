@@ -3,14 +3,22 @@ module.exports = {
         host:'localhost',
         port:8080,
         proxy:{
-            '/api':{
+            '/banner':{
                 target:'http://netease-cloud-music-api-gd796d6r3-noripchan.vercel.app',
                 changeOrigin:true,
                 ws:true,
                 pathRewrite:{
-                    '/api':'/banner'
+                    '/banner':'/banner'
                 }
-            }
+            },
+            '/personalized': {
+                target: 'http://netease-cloud-music-api-gd796d6r3-noripchan.vercel.app',
+                changeOrigin: true,
+                ws: true,
+                pathRewrite: {
+                    '/personalized': '/personalized'
+                }
+            },
         }
     }
 }

@@ -4,17 +4,26 @@
     <van-swipe-item
       v-for="(img, Index) in banners"
       :key="Index"
+      :autoplay="1000"
+      :duration="500"
+      :width="7.5"
+      :heigth="200"
       class="vanSwipe"
     >
       <img class="images" v-lazy="img" />
     </van-swipe-item>
   </van-swipe>
+  
+  <music-list />
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent,defineAsyncComponent } from "vue";
 import topNav from "../components/topNav.vue";
 import banners from "../api/getBannerUrls";
+import iconList from "../components/iconList.vue";
+import musicList from "../components/musicList.vue"
+
 
 export default defineComponent({
   name: "Home",
@@ -31,8 +40,10 @@ export default defineComponent({
   },
   components: {
     topNav,
-  },
-});
+    iconList,
+    musicList,
+}
+})
 </script>
 
 <style lang="less" scoped>
@@ -41,8 +52,5 @@ export default defineComponent({
     width: 7.5rem;
     border-radius: 0.3rem;
   }
-  
 }
-
-
 </style>

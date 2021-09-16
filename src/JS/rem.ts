@@ -5,7 +5,7 @@
         let deviceWidth: Number = docEle.clientWidth;
         if (!deviceWidth) return;
         if (deviceWidth >= 375) doc.documentElement.style.fontSize = "50px"
-        else if (deviceWidth > 187 && deviceWidth < 375) doc.documentElement.style.fontSize = `${(deviceWidth as any) / 15}px`
+        else if (deviceWidth > 187 && deviceWidth < 375) doc.documentElement.style.fontSize = `${(deviceWidth as any) / 375 *50}px`
         else doc.documentElement.style.fontSize = "25px";
     };
 

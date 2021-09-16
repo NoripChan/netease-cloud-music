@@ -1,6 +1,6 @@
 import axios from 'axios';
 const baseUrl = 'http://netease-cloud-music-api-gd796d6r3-noripchan.vercel.app';
-export default axios.get(`/api`, {
+export default axios.get(`/banner`, {
     params: {
         type: 2
     }
