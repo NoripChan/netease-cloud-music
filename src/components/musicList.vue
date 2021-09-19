@@ -16,6 +16,8 @@
 import { defineComponent, ref, onMounted } from "vue";
 import type from "../store/type";
 import { useStore } from "vuex";
+// import {Swiper,SwiperSlide} from 'swiper/vue'
+import 'swiper/swiper-bundle.css'
 
 export default defineComponent({
   name: "musicList",
