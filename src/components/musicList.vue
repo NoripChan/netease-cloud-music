@@ -2,7 +2,7 @@
   <div v-if="isShowed">
     <van-swipe :autoplay="3000" lazy-render :width="300">
       <van-swipe-item v-for="item in musicList" class="vanSwipe" :key="item.id">
-        <router-link :to="{ name: 'musicListInfo', query: {id: item.id } }">
+        <router-link :to="{ name: 'musicListInfo', query: { id: item.id } }">
           <div class="itemContainer">
             <img :src="item.picUrl" class="images" :alt="item.name" />
             <span class="counterIndicator">{{
@@ -41,8 +41,8 @@
       </swiper-slide>
     </swiper>
   </div>
-
-  <button @click="handle"></button>
+  <div @click="handle">TTTTTTTT</div>
+  <button style="width: 1rem; height: 1rem"></button>
 </template>
 
 <script lang="ts">

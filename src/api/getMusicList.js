@@ -1,7 +1,9 @@
 import axios from 'axios';
-export default axios.get(`/personalized`, {
+export default axios.get("/personalized", {
     params: {
-        limit: 10
+        limit: 10,
     }
+}).then(res => {
+    return res.data.result;
 });
 //# sourceMappingURL=getMusicList.js.map

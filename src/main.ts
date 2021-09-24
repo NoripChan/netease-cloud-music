@@ -6,6 +6,7 @@ import './assets/css/reset.css'
 import './JS/rem'
 import '../src/assets/font_2800797_pn7mjq3e5b/iconfont.css'
 import '../src/assets/font_2800797_pn7mjq3e5b/iconfont.js'
+import 'default-passive-events'
 import { NavBar, Swipe, SwipeItem, Lazyload } from 'vant'
 
 

@@ -6,6 +6,48 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1722990",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e7bd",
+      "unicode_decimal": 59325
+    },
+    {
+      "icon_id": "6146047",
+      "name": "vip",
+      "font_class": "vip",
+      "unicode": "e73d",
+      "unicode_decimal": 59197
+    },
+    {
+      "icon_id": "6237090",
+      "name": "分享",
+      "font_class": "tubiaozhizuo-",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "10905639",
+      "name": "new 选中 多选",
+      "font_class": "newxuanzhongduoxuan",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "11177805",
+      "name": "播放",
+      "font_class": "ziyuan",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "20140262",
+      "name": "聊天",
+      "font_class": "liaotian-04",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
       "icon_id": "579806",
       "name": "后退",
       "font_class": "houtui",
