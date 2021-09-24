@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-09-17 15:04:08
- * @LastEditTime: 2021-09-23 23:33:51
+ * @LastEditTime: 2021-09-24 14:02:40
  * @LastEditors: Norip Chan
  * @Description: In User Settings Edit
  * @FilePath: \netease-cloud-music\src\store\state.ts
@@ -16,6 +16,8 @@ const playlist = {
             id:0,
             al: {
                 name: "",
+                picUrl:'',
+
             },
             ar: [
                 {
@@ -23,9 +25,9 @@ const playlist = {
                     name: "",
                     tns: [],
                     alias: []
-                }
+                },
             ],
-        }
+        },
     ],
 
 };
@@ -33,5 +35,6 @@ const playlist = {
 export default {
     musicList,
     playlist,
+    currentPlaying:0,
 
 }
