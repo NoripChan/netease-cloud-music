@@ -1,4 +1,14 @@
+/*
+ * @Author: Norip Chan
+ * @Date: 2021-09-17 15:04:08
+ * @LastEditTime: 2021-09-26 13:20:08
+ * @LastEditors: Norip Chan
+ * @Description: 
+ * @FilePath: \netease-cloud-music\vue.config.js
+ * 可以输入预定的版权声明、个性签名、空行等
+ */
 module.exports = {
+    publicPath: process.env.NODE_ENV === 'production' ?'/docs':'/',
     devServer: {
         host: 'localhost',
         port: 8080,
