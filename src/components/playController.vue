@@ -1,7 +1,7 @@
 <!--
  * @Author: Norip Chan
  * @Date: 2021-09-24 12:54:48
- * @LastEditTime: 2021-09-24 14:16:39
+ * @LastEditTime: 2021-09-26 12:50:29
  * @LastEditors: Norip Chan
  * @Description: 
  * @FilePath: \netease-cloud-music\src\components\playController.vue
@@ -51,6 +51,7 @@ export default defineComponent({
 
 <style lang="less" scoped>
 .playContrlllerContainer {
+  background-color: rgba(255,255,255,0.5);
   width: 7.5rem;
   height: 1rem;
   display: flex;

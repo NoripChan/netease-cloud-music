@@ -1,7 +1,7 @@
 <!--
  * @Author: Norip Chan
  * @Date: 2021-09-21 19:45:49
- * @LastEditTime: 2021-09-24 12:50:09
+ * @LastEditTime: 2021-09-26 12:47:00
  * @LastEditors: Norip Chan
  * @Description: 
  * @FilePath: \netease-cloud-music\src\components\playList.vue
@@ -124,6 +124,7 @@ export default {
 
 <style lang="less" scoped>
 .playlistContainer {
+  
   width: 7.5rem;
   height: 1rem;
 
